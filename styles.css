@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*Intro Part*/
+
+header{
+    max-width: 1320px;
+    max-height: 600;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('images/Banner\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 16px;
+}
+
+.intro{
+    max-width: 632px;
+    padding: 177px 344px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    font-family: "Merriweather", serif;
+}
+
+.intro h5{
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 16px;
+}
+
+.intro h1{
+    font-size: 72px;
+    font-weight: black;
+}
+
+/*Main sectionss*/
+
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+.discount{
+    max-width: 802.9px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.discount h2{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+.discount h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.discount h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+.discount img{
+    width: 100%;
+}
+
+/*Banner part*/
+.banner{
+    gap: 39.17px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('images/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 68.11px 137px 67.23px 126px;
+}
+
+.col2{
+    max-width: 319.83px;
+}
+
+.col2 img{
+    width: 100%;
+}
+
+.col1{
+    margin-top: 57.89px;
+    font-family: "Inter", sans-serif;
+    max-width: 697px;
+}
+
+.col1 h2{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    letter-spacing: 11px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.col1 span{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 48px 0px 0px 32px;
+    display: block;
+}
+
+/*date part*/
+
+.time{
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.236), rgba(255, 0, 0, 0));
+    border: none;
+    border-radius: 16px;
+}
+
+.time_box{
+    max-width: 549px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 386px 110px 385px;
+}
+
+.time_box h3{
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.p_s{
+    color: #FF0000;
+}
+
+.time_box button{
+    display: block;
+    margin: 48px auto;
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+}
